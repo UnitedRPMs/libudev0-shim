@@ -9,6 +9,7 @@ License: LGPLv2.1+
 Group: System Environment/Libraries
 Url: https://github.com/archlinux/libudev0-shim
 
+BuildRequires: systemd-devel
 Provides: libudev0 = %{version}-%{release}
 Requires: systemd
 
