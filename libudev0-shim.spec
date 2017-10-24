@@ -20,7 +20,7 @@ BuildRequires: make
 libudev.so.0 compatibility library for systems with newer udev versions
 
 %prep
-%autosetup -n %{version}-%{version}
+%autosetup -n %{name}-%{version}
 
 
 %build
