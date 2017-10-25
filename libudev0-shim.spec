@@ -74,6 +74,10 @@ make LIBS="-lrt"
 install -Dm755 src/.libs/libudev.so.0.13.1 %{buildroot}/%{_libdir}/libudev.so.0.13.1
 ln -sf %{_libdir}/libudev.so.0.13.1 %{buildroot}/%{_libdir}/libudev.so.0
 
+%post -p /sbin/ldconfig
+
+%postun -p /sbin/ldconfig
+
 %files
 %{_libdir}/libudev.so.*
 
