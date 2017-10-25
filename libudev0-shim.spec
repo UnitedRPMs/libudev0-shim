@@ -83,5 +83,5 @@ ln -sf %{_libdir}/libudev.so.0.13.1 %{buildroot}/%{_libdir}/libudev.so.0
 
 %changelog
 
-* Tue Oct 24 2017 David Vásquez <davidjeremias82 AT gmail DOT com> 182-1
+* Tue Oct 24 2017 David Vásquez <davidjeremias82 AT gmail DOT com> 181-1
 - Initial build
